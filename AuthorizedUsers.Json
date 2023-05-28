@@ -1,0 +1,14 @@
+[
+  {
+    "Pass": "f8ee9961ecc4b20c19162ef5ba89d57ffd3e91feedf272254eef300bb36227da",
+    "Status": 1
+  },
+  {
+    "Pass": "password2",
+    "Status": 0
+  },
+  {
+    "Pass": "password3",
+    "Status": 0
+  }
+]
