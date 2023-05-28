@@ -5,11 +5,15 @@
     function myFunction() {
       // JavaScript code goes here
       console.log("Function called automatically");
-
-      fetch('https://sobhanakbarzadeh.github.io/clinicmanagementaccess.github.io/AuthorizedUsers.json')
-  .then(response => response.json())
-  .then(data => {
-    console.log(data);
+      
+    fetch('AuthorizedUsers.json')
+        .then(response => response.json())
+        .then(data => {
+          console.log(data);
+        })
+        .catch(error => {
+          console.error('Error fetching JSON:', error);
+        });
     // const licenseKey = new URLSearchParams(window.location.search).get('licenseKey');
 
     // if (licenseKey) {
