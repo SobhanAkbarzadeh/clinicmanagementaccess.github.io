@@ -14,6 +14,7 @@
         .catch(error => {
           console.error('Error fetching JSON:', error);
         });
+      }
     // const licenseKey = new URLSearchParams(window.location.search).get('licenseKey');
 
     // if (licenseKey) {
@@ -40,11 +41,7 @@
       
     //   URL.revokeObjectURL(url);
     // }
-  })
-  .catch(error => {
-    console.error('Failed to retrieve authorized users JSON:', error);
-  });
-    }
+  
   </script>
 </head>
 <body onload="myFunction()">
